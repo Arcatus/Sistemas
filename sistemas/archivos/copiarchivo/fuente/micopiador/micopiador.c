@@ -12,7 +12,7 @@ int main(int argc, char** argv)
           fprintf(stderr,"\t archivo1: archivo a copiar\n");
           fprintf(stderr,"\t archivo2: archivo copiado\n");
           fprintf(stderr,"\t BUFFER: tamaño del buffer\n");
-	  exit(1);
+	     exit(1);
      }
      if(!strcmp(argv[1],argv[2]))
      {
